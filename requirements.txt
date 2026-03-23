@@ -1,0 +1,51 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+pip install flask
+python app.py
+
+Looking for Python developer with SQL and data analysis
+
+
+Project Summary:
+
+This project is an Agentic AI-based system that automates job application assistance for users.
+It allows users to register, log in, upload resumes, and provide job descriptions through a web interface.
+The system extracts features like skills from resumes and calculates a match score using basic NLP techniques.
+Based on extracted skills, it intelligently suggests relevant jobs and internships from online platforms.
+The application is built using HTML, CSS, JavaScript for frontend and Python (Flask) for backend integration.
+
+Use of This Project
+💡 Main Purpose
+
+👉 The project helps users automate and simplify the job search and application process using AI.
+
+🔧 Key Uses
+1. ⏳ Saves Time
+Instead of manually searching jobs
+👉 System suggests relevant jobs automatically
+2. 🎯 Better Job Matching
+Compares resume with job description
+👉 Gives match score
+👉 Helps user know if they are suitable
+3. 🧠 Skill Identification
+Extracts skills from resume
+👉 Helps users understand their strengths
+4. 💼 Job & Internship Recommendations
+Suggests roles based on skills
+👉 Example:
+Python → Python Developer
+ML → ML Intern
+5. 🚀 Helps Freshers (Very Important)
+Students don’t know where to apply
+👉 This system guides them automatically
+
+
+
+
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin "user name path from github"job-agentic-ai.git
+git branch -M main
+git push -u origin main

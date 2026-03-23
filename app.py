@@ -56,6 +56,8 @@ def suggest_jobs(skills):
 
     return job_roles
 
+# ---------------- ROUTES ----------------
+
 @app.route('/')
 def root():
     return redirect(url_for('login'))
@@ -97,7 +99,7 @@ def login_user():
 def home():
     return render_template('home.html')
 
-
+# ---------------- ANALYZE ----------------
 @app.route('/analyze', methods=['POST'])
 def analyze():
     job_desc = request.form['job_desc']
@@ -124,7 +126,7 @@ def analyze():
 
     return render_template('home.html', score=0)
 
-
+# RUN
 if __name__ == '__main__':
     if not os.path.exists('uploads'):
         os.makedirs('uploads')

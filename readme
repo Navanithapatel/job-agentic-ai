@@ -47,3 +47,21 @@ git commit -m "initial commit"
 git remote add origin https://github.com/Navanithapatel/job-agentic-ai.git
 git branch -M main
 git push -u origin main
+
+
+
+This project is an AI-based job assistant that helps users find suitable jobs by analyzing their resume.
+It extracts important features like skills and compares them with job descriptions to give a match score.
+Based on the extracted skills, it also suggests relevant jobs and internships from online platforms.
+The project is built using HTML, CSS, JavaScript for frontend and Python Flask for backend processing.
+It is deployed online using Railway with Gunicorn, making the application accessible through a public URL.
+
+
+1️⃣ Python vs Flask
+Python:
+A programming language.
+Can write anything: scripts, data processing, AI, web apps.
+Flask:
+A Python framework for building web applications.
+Makes Python capable of handling web requests (like login forms, file uploads, showing web pages).
+Without Flask (or another framework), Python alone cannot serve a website.

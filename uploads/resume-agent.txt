@@ -1,0 +1,36 @@
+N.Navanitha 
+2311CS020476@mallareddyuniversity.ac.in  
+9398199322 
+ 
+  GitHub: https: https://github.com/Navanithapatel 
+Career Objective 
+Aspiring AI & Machine Learning Engineer eager to contribute to innovative projects that 
+leverage AI to solve complex problems. Skilled in Python, C++, Java, and machine learning 
+tools, I seek opportunities in a forward-thinking organization to develop intelligent systems 
+and drive operational efficiency. 
+Education 
+B.Tech in computer science Engeneering -> GPA:8.5 
+Malla Reddy University  
+Expected Graduation: 2027 - >Intermediate:Alphores Junior College -> 97% ->Kerala High School ->10.0 
+Technical Skills 
+• Programming: Python, Java 
+• ML & AI Tools: TensorFlow, Keras, Scikit-learn 
+• Data Science: Pandas, NumPy, Matplotlib, Seaborn 
+• Databases: MySQL, MongoDB, SQLite 
+• Development Tools: Git, Docker, VS Code 
+• OS:  Windows, macOS 
+Projects 
+ 
+  House price Prediction using Machine learning Technique 
+ 
+ Diabetes Prediction Using Machine Learning Algorithms – Achieved 92% accuracy in 
+classifying  using  and ML techniques. 
+Certifications 
+• Python for Data Science & ML Bootcamp – Udemy 
+• Mastering Applied - ExcelR 
+Achievements & Activities 
+• Served as Team Lead in Idea-Creation and Application Development at Malla Reddy 
+University 
+•Participated in Hacker rank and Leet Code Challenges. 
+• Participated in Innovation & Entrepreneurship Summit 
+• Mentored students in AI concepts & programming. 

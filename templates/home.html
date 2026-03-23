@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Job Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🤖 AI Job Assistant</h1>
+
+    <form action="/analyze" method="POST" enctype="multipart/form-data">
+        
+        <label>Upload Resume (.txt)</label>
+        <input type="file" name="resume" required>
+
+        <label>Job Description</label>
+        <textarea name="job_desc" rows="5" required></textarea>
+
+        <button type="submit">Analyze Match</button>
+    </form>
+
+    {% if score is defined %}
+        <h2>Match Score: {{ score }}%</h2>
+    {% endif %}
+</div>
+
+</body>
+</html>
+{% if skills %}
+    <h3>Extracted Skills:</h3>
+    <p>{{ skills }}</p>
+{% endif %}
+
+{% if jobs %}
+    <h3>Suggested Jobs / Internships:</h3>
+    <ul>
+        {% for job in jobs %}
+            <li>
+                <a href="{{ job[1] }}" target="_blank">
+                    {{ job[0] }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
